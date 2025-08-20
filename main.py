@@ -105,7 +105,7 @@ def send_email(subject, body):
     message["To"] = RECEIVER_EMAIL
 
     # Attach the email body as HTML
-    html_part = MIMEText(body, "html")
+    html_part = MIMEText(body, "html", "utf-8")
     message.attach(html_part)
 
     # Connect to the SMTP server and send the email
