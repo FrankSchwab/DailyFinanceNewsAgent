@@ -109,6 +109,12 @@ def send_email(subject, body):
     html_part = MIMEText(body, "html", "utf-8")
     message.attach(html_part)
 
+
+    # Convert the entire message to a byte string before sending
+    # This is the key change to prevent the UnicodeEncodeError
+    email_string = message.as_string().encode('utf-8')
+
+
     # Connect to the SMTP server and send the email
     context = ssl.create_default_context()
     try:
@@ -116,7 +122,7 @@ def send_email(subject, body):
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
             server.login(SENDER_EMAIL, EMAIL_PASSWORD)
             print("Sending email...")
-            server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, message.as_string())
+            server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, email_string)
         print("Email sent successfully!")
     except Exception as e:
         print(f"Failed to send email. Error: {e}")
