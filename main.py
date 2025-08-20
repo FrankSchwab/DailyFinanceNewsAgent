@@ -100,7 +100,7 @@ def create_email_body(articles):
 
 def send_email(subject, body):
     """Sends an email using the SMTP protocol."""
-    message = MIMEMultipart("alternative")
+    message = MIMEMultipart("alternative", _charset="utf-8")
     message["Subject"] = subject
     message["From"] = SENDER_EMAIL
     message["To"] = RECEIVER_EMAIL
