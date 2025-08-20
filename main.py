@@ -10,8 +10,8 @@ from datetime import datetime, timedelta
 # Your email details. It is CRITICAL that you store your password as a GitHub Secret.
 # In GitHub, go to your repository's Settings > Secrets and variables > Actions
 # Click 'New repository secret' and add your email password with the name 'EMAIL_PASSWORD'.
-SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "j.frank.schwab@gmail.com")
-RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL", "frank@frankschwab.de")
+SENDER_EMAIL = os.environ.get("SENDER_EMAIL") # This will be securely loaded from GitHub Secrets
+RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL") # This will be securely loaded from GitHub Secrets
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD") # This will be securely loaded from GitHub Secrets
 
 # You can add more RSS feeds to this list as you find them.
