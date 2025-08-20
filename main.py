@@ -4,6 +4,7 @@ import smtplib
 import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.header import Header # Add this line to import the Header class
 from datetime import datetime, timedelta
 
 # --- Configuration ---
