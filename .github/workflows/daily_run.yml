@@ -2,8 +2,8 @@ name: Daily News Agent
 
 on:
   schedule:
-    # Runs every day at 6:00 AM UTC
-    - cron: '0 6 * * *'
+    # Runs every day at 4:00 AM UTC
+    - cron: '0 4 * * *'
   workflow_dispatch:
     # Allows for manual triggering from the GitHub UI
 
