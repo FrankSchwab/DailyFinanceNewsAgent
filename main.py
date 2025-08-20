@@ -52,8 +52,9 @@ def get_articles():
                         continue # Skip old articles
 
                 # Filter articles by keyword in title or summary.
-                title = entry.get("title", "")
-                summary = entry.get("summary", "")
+                # Ensure titles and summaries are handled correctly with UTF-8 encoding
+                title = entry.get("title", "").encode("utf-8", "ignore").decode("utf-8")
+                summary = entry.get("summary", "").encode("utf-8", "ignore").decode("utf-8")
                 
                 # Check for keywords in a case-insensitive manner
                 if any(keyword.lower() in title.lower() or keyword.lower() in summary.lower() for keyword in KEYWORDS):
