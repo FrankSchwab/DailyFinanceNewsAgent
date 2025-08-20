@@ -18,7 +18,7 @@ EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD") # This will be securely loaded
 # I've included a mix of general finance news, and specific feeds for DACH and MENA regions based on my search.
 RSS_FEEDS = [
     # DACH Region Feeds (Germany, Austria, Switzerland)
-    "https://www.finma.ch/en/rss/rss-feeds.xml", # Swiss Financial Market Supervisory Authority (FINMA)
+    "https://www.finma.ch/en/rss/news", # Swiss Financial Market Supervisory Authority (FINMA)
     "https://www.ecb.europa.eu/home/html/rss.en.html", # European Central Bank (ECB)
     "https://www.dnb.nl/en/rss/", # De Nederlandsche Bank (Dutch) - covers topics relevant to Europe
     # MENA Region Feeds (Middle East and North Africa)
