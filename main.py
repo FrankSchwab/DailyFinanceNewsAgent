@@ -80,10 +80,11 @@ EMAIL_PASSWORD = strip_invisibles(EMAIL_PASSWORD_RAW)
 
 RSS_FEEDS = [
     # DACH
+    "https://fintechnews.ch/feed/",
     "https://www.finma.ch/en/rss/news",
     "https://www.ecb.europa.eu/home/html/rss.en.html",
     "https://www.dnb.nl/en/rss/",
-    "https://fintechnews.ch/feed/",
+    "https://www.fma.gv.at/en/feed/",
     # MENA
     "https://www.arabfinance.com/RSS/RSSList/en",
     "https://www.meed.com/rss-feeds",
