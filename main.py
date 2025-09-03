@@ -83,6 +83,7 @@ RSS_FEEDS = [
     "https://www.finma.ch/en/rss/news",
     "https://www.ecb.europa.eu/home/html/rss.en.html",
     "https://www.dnb.nl/en/rss/",
+    "https://fintechnews.ch/feed/",
     # MENA
     "https://www.arabfinance.com/RSS/RSSList/en",
     "https://www.meed.com/rss-feeds",
