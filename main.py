@@ -97,7 +97,8 @@ RSS_FEEDS = [
 
 KEYWORDS = [
     "banking","finance","crypto","bitcoin","blockchain","fintech",
-    "payment","mena","dach","saudi","dubai","germany","austria","switzerland"
+    "payment","mena","dach","saudi","dubai","germany","austria","switzerland",
+    "megatrend"
 ]
 
 # --- Core logic ---------------------------------------------------------------
