@@ -109,6 +109,18 @@ RSS_FEEDS = [
     "https://www.bis.org/doclist/rss_all_categories.rss",
     "https://www.federalreserve.gov/feeds/press_all.xml",
     "https://www.ecb.europa.eu/rss/paym.xml",
+    "https://sifted.eu/feed",
+    "https://www.paymentsdive.com/feeds/news/",
+    "https://paymentsjournal.com/feed",
+    "https://paymentsnext.com/feed",
+    "https://www.mobilepaymentstoday.com/rss/",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "https://www.ledgerinsights.com/feed/",
+    "https://www.ababankingjournal.com/feed/",
+    "https://www.bankdirector.com/feed/",
+    "https://www.bankingexchange.com/index.php?format=feed&type=rss ",
+    "https://www.forrester.com/blogs/category/banking-finance/feed/",
+    "https://www.celent.com/insights/banking/rss",   
     
 ]
 
