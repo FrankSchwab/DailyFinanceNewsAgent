@@ -93,6 +93,24 @@ RSS_FEEDS = [
     "https://cointelegraph.com/rss-feeds",
     "https://invezz.com/feeds",
     "https://thefintechtimes.com/feed", 
+
+  # OTHER 
+    "https://www.americanbanker.com/feed/technology",
+    "https://thefinancialbrand.com/feed/",
+    "https://www.bankingdive.com/feeds/news/",
+    "https://www.bankingdive.com/feeds/topic/technology/",
+    "https://www.fintechfutures.com/feed/",
+    "https://techcrunch.com/category/fintech/feed/",
+    "https://ibsintelligence.com/feed/",
+    "https://www.finextra.com/rss/headlines.aspx",
+    "https://bankautomationnews.com/feed/",
+    "https://www.paymentsdive.com/feeds/news/",
+    "https://finovate.com/feed/",
+    "https://www.mercatoradvisorygroup.com/feed/",
+    "https://www.bis.org/doclist/rss_all_categories.rss",
+    "https://www.federalreserve.gov/feeds/press_all.xml",
+    "https://www.ecb.europa.eu/rss/paym.xml",
+    
 ]
 
 KEYWORDS = [
